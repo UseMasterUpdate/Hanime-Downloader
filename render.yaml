@@ -1,0 +1,30 @@
+services:
+  - type: worker
+    name: hanime-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
+      - key: FSUB_CHANNEL
+        sync: false
+      - key: API_BASE
+        sync: false
+      - key: START_IMAGE_URL
+        sync: false
+      - key: UPI_ID
+        sync: false
+      - key: UPI_QR_URL
+        sync: false
+      - key: ADMIN_USERNAME
+        sync: false

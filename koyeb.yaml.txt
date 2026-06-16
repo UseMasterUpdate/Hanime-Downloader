@@ -1,0 +1,37 @@
+name: hanime-bot
+services:
+  - name: bot
+    type: worker
+    git:
+      repository: ""        # fill in your repo URL
+      branch: main
+    docker:
+      dockerfile: Dockerfile
+    instance_types: nano
+    regions:
+      - was
+    env:
+      - key: BOT_TOKEN
+        value: ""
+      - key: API_ID
+        value: ""
+      - key: API_HASH
+        value: ""
+      - key: MONGO_URI
+        value: ""
+      - key: OWNER_ID
+        value: ""
+      - key: LOG_CHANNEL
+        value: ""
+      - key: FSUB_CHANNEL
+        value: ""
+      - key: API_BASE
+        value: ""
+      - key: START_IMAGE_URL
+        value: ""
+      - key: UPI_ID
+        value: ""
+      - key: UPI_QR_URL
+        value: ""
+      - key: ADMIN_USERNAME
+        value: ""

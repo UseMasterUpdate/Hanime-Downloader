@@ -1,0 +1,5 @@
+pyrogram==2.0.106
+TgCrypto==1.2.5
+motor==3.3.2
+aiohttp==3.9.5
+yt-dlp==2024.8.6
