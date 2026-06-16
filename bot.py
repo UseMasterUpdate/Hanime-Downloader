@@ -36,18 +36,18 @@ from pyrogram.errors import (
 from motor.motor_asyncio import AsyncIOMotorClient
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ CONFIG ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-BOT_TOKEN       = os.getenv("BOT_TOKEN",       "8818099946:AAFRnMbQ0FbQ-K-CDrJ9lMXkN-FskeIu-7s")
-API_ID          = int(os.getenv("API_ID",      "24114514"))
-API_HASH        = os.getenv("API_HASH",        "f05df583dec661a2b8039733e1c94529")
-MONGO_URI       = os.getenv("MONGO_URI",       "mongodb+srv://Random_Writer:mukeshkipinki29019@cluster0.eesi7xj.mongodb.net/?appName=Cluster0")
-OWNER_ID        = int(os.getenv("OWNER_ID",   "8426629771"))
-LOG_CHANNEL     = int(os.getenv("LOG_CHANNEL", "-1004393605304"))
-FSUB_CHANNEL    = os.getenv("FSUB_CHANNEL",   "-1003595155674")          # blank = disabled
-API_BASE        = os.getenv("API_BASE",        "https://usemasterupdate-hanime.hf.space/hanime-api")
-START_IMAGE_URL = os.getenv("START_IMAGE_URL", "https://iili.io/CnnMuA7.jpg")         # banner on /start
+BOT_TOKEN       = os.getenv("BOT_TOKEN",       "Bot_Token") #required
+API_ID          = int(os.getenv("API_ID",      "Api_Id")) #required
+API_HASH        = os.getenv("API_HASH",        "Api_Hash") #required
+MONGO_URI       = os.getenv("MONGO_URI",       "Mongo_Db_Url") #required
+OWNER_ID        = int(os.getenv("OWNER_ID",   "Owner_ID")) #required
+LOG_CHANNEL     = int(os.getenv("LOG_CHANNEL", "Log_Channel")) #required
+FSUB_CHANNEL    = os.getenv("FSUB_CHANNEL",   "Force_Sub_Channel") # blank = disabled
+API_BASE        = os.getenv("API_BASE",        "https://usemasterupdate-hanime.hf.space/hanime-api") #apna bna liya to change krdo
+START_IMAGE_URL = os.getenv("START_IMAGE_URL", "https://iili.io/CnnMuA7.jpg") # banner on /start
 UPI_ID          = os.getenv("UPI_ID",          "radhe-krishna01@ptyes")
-UPI_QR_URL      = os.getenv("UPI_QR_URL",      "https://iili.io/CnnhIqu.jpg")         # QR image shown after plan select
-ADMIN_USERNAME  = os.getenv("ADMIN_USERNAME",  "@User_master_support_bot")   # contact for payment
+UPI_QR_URL      = os.getenv("UPI_QR_URL",      "https://iili.io/CnnhIqu.jpg") # QR image shown after plan select
+ADMIN_USERNAME  = os.getenv("ADMIN_USERNAME",  "@User_master_support_bot") # contact for payment
 
 FREE_DAILY_LIMIT = 10
 TEMP_DIR = Path("/tmp/hanime")
